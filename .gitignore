@@ -1,0 +1,19 @@
+# 凭据与本地配置，绝不提交
+.token
+.env
+*.token
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 解析产物示例
+*_mineru/
+parsed/
+*.zip
+
+# macOS
+.DS_Store
